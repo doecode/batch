@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gov.osti</groupId>
+  <artifactId>doecode_batch</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>BatchProcesses</name>
+  <description>Folder for Batch Process related to DOE Code</description>
+  
+  
+  <dependencies>
+  
+  		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+                  <!-- Apache HTTP components for connector communication -->
+                <dependency>
+                  <groupId>org.apache.httpcomponents</groupId>
+                  <artifactId>httpclient</artifactId>
+                  <version>4.5.2</version>
+                  <type>jar</type>
+                </dependency>
+
+                <!-- Jackson XML/JSON libraries -->
+	        <dependency>
+	          <groupId>com.fasterxml.jackson.core</groupId>
+	          <artifactId>jackson-annotations</artifactId>
+	          <version>2.8.6</version>
+	          <type>jar</type>
+	        </dependency>
+	        <dependency>
+	          <groupId>com.fasterxml.jackson.core</groupId>
+	          <artifactId>jackson-databind</artifactId>
+	          <version>2.8.6</version>
+	          <type>jar</type>
+	        </dependency>
+	        <dependency>
+	          <groupId>com.fasterxml.jackson.dataformat</groupId>
+	          <artifactId>jackson-dataformat-yaml</artifactId>
+	          <version>2.8.6</version>
+	          <type>jar</type>
+	        </dependency>
+  </dependencies>
+</project>
