@@ -2,6 +2,5 @@
 Contains batch processes used to support DOE Code Applications
 
 
-# PopulateLists
-A process designed to populate the staticLists.json file in client with data from OSTI Authorities. Takes one command line argument, which
-specifies the filename and location.
+# CreateLists
+A process designed to create 4 JSON files for the DOE Code application. To generate the 4 files, run java -cp ./standalone-doecode_batch-0.5.jar gov.osti.processes.CreateLists [Directory you want to put files into] (This argument is optional)
