@@ -33,10 +33,15 @@ public class CreateLists {
 
           //Sponsoring Orgs
           JsonArray USDOE = new JsonArray();
+          JsonObject BlankAttributes = new JsonObject();
+          BlankAttributes.add("name", "");
+          BlankAttributes.add("code", "");
+          BlankAttributes.add("status", "");
           JsonObject USDOEAttributes = new JsonObject();
           USDOEAttributes.add("name", "USDOE");
           USDOEAttributes.add("code", "USDOE");
           USDOEAttributes.add("status", "C");
+          USDOE.add(BlankAttributes);
           USDOE.add(USDOEAttributes);
           System.out.println("Sponsor Orgs List");
           gatherAndWriteFile("https://www.osti.gov/elink/api/authorities/sponsor/sponsor-org-list", "sponsorOrgs", "sponsorOrgsList.json", file_write_location, USDOE, true);
