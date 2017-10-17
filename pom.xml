@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>gov.osti</groupId>
     <artifactId>doecode_batch</artifactId>
-    <version>0.5</version>
+    <version>1.0</version>
     <name>BatchProcesses</name>
     <description>Generates the JSON files that DOE CODE needs for some of its lists</description>
     <packaging>jar</packaging>
