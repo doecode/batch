@@ -29,7 +29,7 @@ public class CreateLists {
           System.out.println("Starting lists");
           //countries
           System.out.println("Countries List");
-          gatherAndWriteFile("https://www.osti.gov/elink/api/authorities/simple/countries-list", "countries", "countriesList.json", file_write_location);
+          gatherAndWriteFile("http://www.osti.gov/elink/api/authorities/simple/countries-list?sort=description&dir=ASC", "countries", "countriesList.json", file_write_location);
 
           //Sponsoring Orgs
           JsonArray USDOE = new JsonArray();
