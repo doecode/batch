@@ -1,3 +1,6 @@
+# DEPRECATED
+This project is no longer supported
+
 # batch
 Contains batch processes used to support DOE Code Applications
 
